@@ -6,7 +6,7 @@ distinct types: int, float, and complex
 # int
 alpha = 42
 beta = 8166488888
-charlie: int = 45679
+charlie: int = -45679
 delta: int = 12345678987654321
 
 # float
@@ -146,7 +146,7 @@ cast_str()
 
 """ Getting input from the user
 The input function always returns a string, so type conversion
-needs to be done for number vlaues.
+needs to be done for number values.
 """
 
 
