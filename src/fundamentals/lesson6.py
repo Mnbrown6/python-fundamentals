@@ -168,3 +168,5 @@ def basic_logical_or(value1: int, value2: int) -> str:
 
 
 print(basic_logical_or(10, 15))
+
+
