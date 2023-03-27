@@ -13,7 +13,7 @@ def example_bool():
     print(type(alpha))
 
 
-example_bool()
+#example_bool()
 
 
 
@@ -28,7 +28,7 @@ def example_if(num):
     print('After if statement')
 
 
-example_if(10)
+# example_if(10)
 
 
 def basic_bool_if(value):
@@ -41,7 +41,7 @@ def basic_bool_if(value):
     print('After if statement')
 
 
-# basic_bool_if(beta)
+#basic_bool_if(beta)
 
 
 def basic_else(score: int) -> str:
@@ -53,7 +53,7 @@ def basic_else(score: int) -> str:
         return 'Score is less than 10'
 
 
-print(basic_else(9))
+#print(basic_else(9))
 
 
 def basic_elif(value2: int):
@@ -78,7 +78,7 @@ def basic_elif_else(num3: int):
         print('Value is greater than 10.')
 
 
-basic_elif_else(9)
+# basic_elif_else(9)
 
 
 def basic_elif_chain(val):
@@ -111,7 +111,7 @@ def basic_nested(num: int):
     print(total)
 
 
-basic_nested(17)
+#basic_nested(17)
 
 
 def basic_ternary(num1: int, num2: int) -> int:
@@ -123,7 +123,7 @@ def basic_ternary(num1: int, num2: int) -> int:
 
 
 my_value = basic_ternary(10, 17)
-print(my_value)
+#print(my_value)
 
 
 def ternary_if_chain(num3: int, num4: int) -> str:
@@ -136,7 +136,7 @@ def ternary_if_chain(num3: int, num4: int) -> str:
         'num4 is greater than num3'
 
 
-print(ternary_if_chain(7, 10))
+#print(ternary_if_chain(7, 10))
 
 
 def basic_logical_and():
@@ -152,7 +152,7 @@ def basic_logical_and():
         print('pear is not the high number')
 
 
-basic_logical_and()
+#basic_logical_and()
 
 
 def basic_logical_or(value1: int, value2: int) -> str:
@@ -167,6 +167,6 @@ def basic_logical_or(value1: int, value2: int) -> str:
         return 'The values are not between 5 and 20'
 
 
-print(basic_logical_or(10, 15))
+#print(basic_logical_or(10, 15))
 
 
