@@ -24,7 +24,7 @@ def pizza_toppings2():
 
 """Task 2"""
 
-""" Favorite Movie Collection"""
+""" Favorite Movies Collection"""
 favorite_movies = {1985: 'Color Purple', 2022: 'Black Panther', 2023: 'Plane', 1982: 'Annie'}
 
 
